@@ -1,0 +1,5 @@
+# 106 - Zigzag pattern (three rows)
+cols = int(input("Enter width (at least 3): "))
+print("* " * cols)
+print(" " * max(0, cols - 2) + "*")
+print("* " * cols)
